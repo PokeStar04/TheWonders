@@ -1,0 +1,166 @@
+header{
+
+    width: 375px;
+    height: 240px;
+    background-color: #EFB33E;   
+    border-radius: 0px 0px 15px 15px; 
+    
+    margin-bottom: 23px;
+}
+.chat_nav{
+
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px;
+    padding-top: 15px;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.icone_header{
+
+display: flex;
+justify-content: space-around;
+    
+    align-items: center;
+    align-self: center;
+    column-gap: 12px;
+    
+
+}
+.titre_2{
+
+display: flex;
+
+
+justify-content: space-around;
+}
+
+.profil_actif{
+    position: relative;
+    top: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+
+
+}
+
+.Font_800_Abhaya_24px{
+
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+.white_txt
+{
+color: #FFFFFF;
+}
+.connected{
+    position: relative;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: #0FD23A;
+    top: -20px;
+    left: 48px;
+    border: #FFFFFF solid 1px;
+}
+.disconnected{
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    border-radius: 50%;
+    background-color: red;
+    top: 46px;
+    left: 62px;
+    border: #FFFFFF solid 1px;
+}
+.amis{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.amis_1{
+
+    display: flex;
+    padding-bottom: 19px;
+    margin-top: 13px;
+    border-bottom: 0.2px solid #C4C4C4;
+    
+   
+}
+
+.infos_1{margin-left: 15px;
+    min-width:  250px;
+flex-wrap: nowrap;}
+.infos_2{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+margin-right: 20px;
+
+}
+.msg_non_lu{
+    
+    height: 15px;
+    width: 15px;
+    background-color: #EFB33E;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.Font_Bold_Montserrat_17px{
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 21px;
+font-variant: small-caps;
+}
+.Font_Normal_Montserrat_11px{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 100;
+font-size: 11px;
+line-height: 13px;
+ }
+ .nbr_2{
+    margin-top: 1px;
+    margin-left: 1px;
+ }
+
+
+
+ .Font_Normal_Montserrat_8px{
+ font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 10px;
+}
+
+    
+  
+
+
+.amis_1 > img{
+    padding-left: 20px;
+    
+}
+.Font_800_Abhayat_13px{ 
+font-family: Abhaya Libre ExtraBold;
+font-size: 13px;
+font-style: normal;
+font-weight: 800;
+line-height: 15px;
+letter-spacing: 0em;
+
+}
