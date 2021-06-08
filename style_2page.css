@@ -1,0 +1,111 @@
+#bleu{
+    width: 375px;
+    height: 812px;
+    background-color: #0F24B2;
+    z-index: -2;
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    left: 50px;
+    top: 45px;
+    
+}
+
+#defi{
+    position: absolute;
+    display: block;
+    color: white;
+    font-family: "Abhaya Libre ExtraBold";
+    font-size: 36px;
+    top: 120px;
+    left: 50px;
+}
+
+#type{
+    color: white;
+    font-family: "Abhaya Libre ExtraBold";
+    font-size: 17px;
+    position: absolute;
+    display: block;
+    top: 165px;
+    left: 50px;    
+}
+
+#the{
+    position: absolute;
+    display: block;
+    top: 280px;
+    left: 28px;
+    z-index: 0;
+
+}
+
+#fusée{
+    position: absolute;
+    display: block;
+    top: 119px;
+    left: 263px;
+}
+
+#carre_mauve{
+    display: inline-block;
+    width: 116px;
+    height: 116px;
+    background-color: #9E4ACE;
+    border-radius: 10px;
+    position: absolute;
+    display: block;
+    top: 240px;
+    left: 65px;
+    z-index: 1;
+}
+
+#carre_rose{
+    display: inline-block;
+    width: 116px;
+    height: 116px;
+    background-color: #EF96C3;
+    border-radius: 10px;
+    position: absolute;
+    top: 240px;
+    left: 225px;
+    z-index: 2;
+
+}
+
+#home{
+    position: absolute;
+    display: block;
+    top: 752px;
+}
+
+#solo{
+    color: white;
+    font-family: "Abhaya Libre ExtraBold";
+    font-size: 23px;
+    position: absolute;
+    display: block;
+    top: 290px;
+    left: 99px;
+    z-index: 3;
+
+}
+
+#squad{
+    color: white;
+    font-family: "Abhaya Libre ExtraBold";
+    font-size: 23px;
+    position: absolute;
+    display: block;
+    top: 290px;
+    left: 255px;
+    z-index: 4;
+
+}
+
+#carre_rose:hover a{
+    color: green;
+
+}
