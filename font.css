@@ -1,0 +1,44 @@
+/*  H1 */
+.font_abhaya_regular_35px{
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.1875em;
+    line-height: 2.5625em;
+}
+
+/*  H2 */
+.font_abhaya_regular_25px{
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5625em;
+    line-height: 1.8125em;
+}
+
+/*  H2  inter*/
+.font_inter_medieum_20px{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25em;
+    line-height: 1.5em;    
+}
+
+/*  corps de texte*/
+.font_inter_regular_20px{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25em;
+    line-height: 1.125em;  
+}
+
+/*  corps descriptif*/
+.font_inter_medieum_10px{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.625em;
+    line-height: 0.75em;
+}
