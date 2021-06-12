@@ -4,11 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    
     <link rel="stylesheet" href="navigation_mobile.css">
     <link rel="stylesheet" href="chat_0.css">
+    <link rel="stylesheet" href="css_reset.css">
+    <link rel="stylesheet" href="poppup.css">
+    <link rel="stylesheet" href="library/color.css">
+    <link rel="stylesheet" href="font_px.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <title>Document</title>
+    
 </head>
 <body>
+    
     <header>
     <div class="chat_nav">
         <img src="ressources/Chat/img_profile/img_profile_0.svg" alt="" class="img_profile_0">
@@ -29,7 +38,18 @@
      </div>
 
 </header>
-
+ <div data-popup-ref="monPopup" class="mompp">POPPUP VIENS À MOI </div>     
+<div class="popup" data-popup-id="monPopup">
+    <div class="popup-content electric_blue_bg">
+        <span class="btn-close " data-dismiss-popup>  </span>
+        <p class="white_txt font_abhaya_regular_35px"  >Hello Username,<br>lance ton premier<br>défi !  🚀</p>
+        <img src="ressources/Lancement_défi/Prototypes/maquettes/vague_ppy.svg" alt="" class="vague_ppy">
+        <img src="ressources/Lancement_défi/Prototypes/maquettes/femme_the.svg" alt="" class="femme_the">
+        <div class="btn_defi "><span class="electric_blue_bg white_txt">J'y vais</span></div>
+    </div>
+    <p class="btn-close white_txt" data-dismiss-popup>Plus tard</p>
+    
+</div>
     <div class="navigation-mobile">
           
         <div class="bloc-icon">
@@ -53,7 +73,7 @@
           </div>
         </div>
 
-
+        <div id="blur" >
     <div class="amis">
 
         <div class="amis_1">
@@ -170,12 +190,32 @@
             </div>
         </div>
        
-
+    </div>
     </div>
 
 
-
+           
 
 
 </body>
+    
+    <script src="popup.js">   </script>
+    <script>
+    //$(()=>{
+        //$('.click').click( function(){
+       //     if ($(this).css('color')=='black'){
+        //        $(this).css('color','bleu');
+       //     }
+        //    else{
+        //        $(this).css('color','yellow');
+
+        //    }
+
+    //    })
+  //  });//
+ 
+    
+
+        </script>
+
 </html>

@@ -15,7 +15,7 @@
 .logo{
     margin-top: max(45px,5.54%);
     margin-left: max(20px,4.65%);
-    margin-bottom: max(36px,4.43%);
+    margin-bottom: max(76px,9.36%);
 }
 .vague_ybp_right{
     position: absolute;
@@ -25,11 +25,10 @@
 .vague_ybp_left{
     position: absolute;
     width: 100%;
+    top: 64.41%;
     left: 0;
-    top: 131.57px;
 }
 h1{
- 
     margin-left: max(20px,4.65%);
     margin-bottom: max(116px,14.29%);
     font-family: Abhaya Libre ExtraBold;
@@ -42,16 +41,13 @@ h1{
 
 }
 .inscription_box{
-    position: relative;
-    top: 90%;
-    box-sizing: content-box;
     bottom: 0;
     
     margin-left: max(20px,5.33%); 
       
     margin-right: max(20px,5.33%); 
     
-    padding-top: max(48px,12%);
+    padding-top: max(50px,11.57%);
    
     padding-left: max( 29px,7.7%);
     
@@ -59,9 +55,9 @@ h1{
 
     max-width: (432px,89.33%);
 
-    min-height: (400px,49.26%);
+    min-height: 432px;
     
-    padding-bottom: max(51px,12.75%);
+    padding-bottom: 20px;
     margin-bottom: max(34px,4.19%);
  
     background: radial-gradient(102.7% 102.34% at 0% 0%, rgba(15, 36, 178, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
@@ -74,10 +70,7 @@ border-radius: 10px;
 
 }
 
-.input_inscription{
 
-    
-}
 .input{
     position: relative;
     display: flex;
@@ -131,7 +124,7 @@ border-radius: 10px;
     position: relative;
     display: flex;
     justify-content: space-around;
-    margin-top: max(15px,4.48%);
+    margin-top: max(20px,4.65%);
    
     padding-left: max(106px,38.55%);
     padding-right: max(106px,38.55%);
@@ -144,19 +137,4 @@ border-radius: 10px;
     margin-left: max(11px,2.89%);
     margin-right: max(11px,2.89%);
     
-}
-.wrapper{
-
-    position: absolute;
-    
-    height: 17.49vh;
-    width: 100%;
-    
-}
-.cercle_1{
-    position: absolute;
-    left: 1px;
-    width: 142px;
-    height: 142px;
-    border-radius: 100%;
 }
