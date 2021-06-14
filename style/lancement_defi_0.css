@@ -1,0 +1,240 @@
+.navigation-mobile {
+    background: black;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    height: 65px;
+    width: 100%;
+    justify-content: space-around;
+    z-index: 1000;
+    
+    
+}
+
+.bloc-icon{
+    display: flex;
+    justify-content: center;
+    /* width: 60px; */
+}
+
+
+
+
+
+
+
+
+
+
+.box_rose{
+    height: 205px;
+    width: 335px;
+    position: absolute;
+    
+    background-color: #EF96C3;
+    
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.06);
+    top: 237px;
+    border-radius: 30px;
+    margin: 0px 20px;
+}
+
+.rectangle_bleu {
+position: absolute;
+    width: 185px;
+    height: 74px;
+    background-color: #0F24B2;
+    top: 513px;
+}
+
+.femme_verre{
+
+    position: absolute;
+    top: 400px;
+    left: 53px;
+    z-index: 1;
+        
+}
+
+
+
+.box_rose .three_step{
+
+display: flex;
+
+flex-direction: column;
+justify-content: space-around;
+margin-left: 147px;
+height: 100%;
+
+}
+
+
+.box_rose .three_step .box{
+
+
+width: 165px;
+height: 40px;
+background-color: #FFFFFF;
+border-radius: 10px;
+
+}
+
+.box
+{
+
+display: flex;
+justify-content: space-between;
+
+align-items: center;
+
+column-gap: 10px;
+padding-left: 10px;
+
+}
+
+.Font_500_Montserrat_11px{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.Font_600_Montserrat_12px{
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+}
+.bleu{
+
+color: #0F24B2;
+
+} 
+.violet{
+
+    color: #9E4ACE;
+}
+.chrono{
+
+position: absolute;
+left: 43px;
+top: 22px;
+}
+.white{
+
+    color: #FFFFFF;
+}
+.txt_1{
+
+position: absolute;
+top: 75px;
+left: 47px;
+
+
+}
+
+.recompense{
+
+    position: absolute;
+    top: 659px;
+    margin-left: 20px;
+    width: 220px;
+
+
+
+}
+.Titre_1{
+    position: absolute;
+    top: 97px;
+    margin-left: 20px;
+
+
+
+}
+
+.Font_800_Abhaya_38px{
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 38px;
+line-height: 38px;
+}
+.Font_800_Abhaya_18px{
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+
+     }
+.Font_800_Abhaya_14px{
+font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 14px;
+line-height: 17px;
+
+    }
+
+.Titre_2{
+position: absolute;
+margin-left: 20px;
+top: 189px;
+     }
+.Font_800_Abhaya_24px{
+     font-family: Abhaya Libre ExtraBold;
+     font-style: normal;
+     font-weight: 800;
+     font-size: 24px;
+     line-height: 28px;
+    }
+     
+    .Titre_3{
+        position: absolute;
+        margin-left: 20px;
+        top: 472px;
+    }
+    .onglet{
+
+        display: flex;
+        position: absolute;
+        top: 710px;
+        margin: 0px 177px;
+        column-gap: 5px;
+
+    }
+    .onglet_update{
+height: 7px;
+width: 7px;
+border-radius: 4px;
+    }
+
+    .violet_bg_20{
+    background: rgba(158, 74, 206, 0.2);
+     }
+     .violet_bg{
+
+        background: #9E4ACE;
+     }
+  .rond_violet_1{
+
+    position: absolute;
+    left: 275px;
+  }
+  .txt_2{
+
+    position: absolute;
+    top: 123px;
+    left: 32px;
+    
+   
+    text-align: center;
+    
+  }

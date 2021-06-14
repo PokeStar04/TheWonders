@@ -1,0 +1,154 @@
+
+.logo{
+  
+    margin-bottom: max(76px,9.36%);
+}
+.vague_ybp_right{
+    position: absolute;
+    width: 100%;
+    top: 263px;
+    z-index: -1;
+}
+.wrapper{
+    position: relative;
+    margin-left: max(20px,4.65%);
+    margin-right: max(20px,4.65%);
+
+}
+h1{
+
+    margin-bottom: max(107px,12.18%);
+    font-family: Abhaya Libre ExtraBold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.inscription_box{
+    position: relative;
+    width: 100%;
+    top: -35px;
+    
+      
+
+    
+    padding-top: max(50px,11.57%);
+   
+    padding-left: max( 29px,7.7%);
+    
+    padding-right: max( 29px,7.7%);
+
+    max-width: (432px,89.33%);
+
+    min-height: 432px;
+    
+    padding-bottom: 15px;
+    
+ 
+    background: radial-gradient(102.7% 102.34% at 0% 0%, rgba(15, 36, 178, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    backdrop-filter: blur(12px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+
+}
+
+
+.input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    width: 100%;
+    height: 2.6875em;
+
+    margin-bottom: max(23px,1.4375em,5.3240%);
+    border-radius: 10px;
+
+    padding-left: max(15px,5.625%);
+    
+
+}
+.button_inscription{
+    position: relative;
+    width: 103px;
+    height: 43px;
+    display: flex;
+    
+    margin: 0px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: max(20px,4.65%);
+}
+
+.bloc_choix_inscription{
+    position: relative;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    padding-left: max(116px,42.18%);
+    padding-right: max(116px,42.18%);
+}
+.trait{
+    position: relative;
+    min-width: 38px;
+    max-width: 13.82%;
+    height: 1px;
+}
+.bloc_choix_inscription p{
+    position: relative;
+    margin-left: max(5px,1.82%);
+    margin-right: max(5px,1.82%);
+    
+}
+.choix_rs{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: max(20px,4.65%);
+   
+    padding-left: max(106px,38.55%);
+    padding-right: max(106px,38.55%);
+    margin-bottom: max(50px,13.16%);
+}
+.connexion{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: max(11px,2.89%);
+    margin-right: max(11px,2.89%);
+    
+}
+body::before{
+    content: "";
+    position: absolute;
+    width: 71px;
+    height: 143px;
+    background-color: #EF96C3;
+    clip-path: circle(50% at 100% 50%);
+   right: 0;
+   top: 30px;
+   z-index: -1;
+
+    
+
+}
+body::after{
+    content: "";
+    position: absolute;
+    width: 143px;
+    height: 143px;
+    background-color: #9E4ACE;
+    top: 120px;
+    clip-path: circle(50% at 45% 50%);
+    left: 0;
+    z-index: -1;
+
+}

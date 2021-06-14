@@ -1,0 +1,22 @@
+:root{
+           
+        
+    --col_m_1: 0%;
+    --col_m_2: 13.13%;
+    --col_m_3: 26.26%;
+    --col_m_4: 39.39%;
+    --col_m_5: 52.52%;
+    --col_m_6: 65.55%;
+    --col_m_7: 78.78%;
+    --col_m_8: 91.91%;
+    
+    --col_m_1_px: 0px;
+    --col_m_2_px: 44px;
+    --col_m_3_px: 88px;
+    --col_m_4_px: 131px;
+    --col_m_5_px: 175px;
+    --col_m_6_px: 219px;
+    --col_m_7_px: 263px;
+    --col_m_8_px: 306px;
+    
+}
