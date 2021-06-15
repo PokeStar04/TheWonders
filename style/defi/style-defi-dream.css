@@ -7,23 +7,19 @@
     z-index: 0;
     border-radius: 0% 0% 5% 5% ;
     z-index: -1;
-    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
 
 }
 
 #questionnaire{
-    position: absolute;
+    position: relative;
     display: block;
-    font-family: "Abhaya Libre";
-    font-size: 35px;
-    color: white;
+
     top: 107px;
     left: 20px;
     z-index: 2;
-
 }
 
-#logo{
+.logo{
     position: absolute;
     display: block;
     margin-top: auto;
@@ -57,7 +53,7 @@
     border-radius: 12px;
     top: 282px;
     left: 48px;
-    z-index: 0;
+    z-index: 2;
 }
 
 
@@ -89,6 +85,7 @@
     color: #6F6F6F;
     left: 63px;
     top: 302px;
+    z-index: 1;
 
 }
 
@@ -98,6 +95,7 @@
     top: 550px;
     width: 233px;
     height: 219px;
+    z-index: 3;
 }
 
 #cercle1{

@@ -31,7 +31,7 @@
   display: inline-block;
   content: " ";
   vertical-align: middle;
-  background-image: url(ressources/Prototypes/maquettes/bi_check.svg);
+  background-image: url(../../ressources/inscription/inscription-info-premium/check-i1.svg);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,13 +45,18 @@
 	right: 20px;
 	width: 20px;
 	height: 20px;
-	background-image: url(ressources/Prototypes/maquettes/croix.svg);
+	background-image: url(../../ressources/inscription/inscription-info-premium/croix-i1.svg);
+}
+
+.conditions{
+	position: relative;
+	display: block;
 }
 
 .rainbow_background {
 	position: absolute;
 	z-index: -1;
-	top: 50%;
+	top: 65%;
 	transform: translateY(-50%);
 }
 

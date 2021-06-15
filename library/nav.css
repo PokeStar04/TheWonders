@@ -23,5 +23,5 @@
 }
 /* Code html qui génere la nav bar
 <div id="navbar" class="black_bg"></div>
-        <script>$("#navbar").load("library/navbar/nav.html");</script>
+        <script>$("#navbar").load("../../html/navbar/nav.html");</script>
 */
