@@ -5,39 +5,45 @@
     z-index: 2;
 }
 
+
+
 #wonders_woman{
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0%;
+    z-index: -2;
+    margin-bottom: 100px;
+
+}
+
+#base-bleu{
     position: absolute;
     display: block;
-    top: 0px;
+    width: 100%;
+    top: 25%;
+    z-index: -2;
+}
+
+#vague{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 33.35%;
     z-index: -1;
 }
 
-#vector_ppy{
-    position: absolute;
-    display: block;
-    top: 272px;
-    left: 0px;
-    width: 100%;
-    z-index: 4;
+h1{
+    margin-left: max(20px,5.33%);
+    margin-bottom: max(93px,11.45%);
+    z-index: 2;
 }
 
-#txt{
-    z-index: 5;
-    position: absolute;
-    display: block;
-    top: 600px;
-    left: 20px;
-    line-height: 29px;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 21px;
-}
 
 .charging{
 
     position: relative;
     display: flex;
-    margin-top: 783px;
     justify-content: space-around;
     margin-left: 146px;
     margin-right: 146px;
@@ -58,4 +64,3 @@
     border-radius: 50px;
 
 }
-
