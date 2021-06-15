@@ -1,34 +1,18 @@
-#bg{
-    position: absolute;
-    display: block;
-    width: 375px;
-    height: 812px;
-    z-index: 1;
+
+
+h1{
+    margin-top: max(72px,8.87%);
+    margin-bottom: max(70px,8.62%);
 }
 
-#start{
-    position: absolute;
-    display: block;
-    z-index: 3;
-    left: 20px;
-    top: 72px;
+h2{
+    margin-bottom: max(42px,5.17%);
+
 }
 
-#txt1{
-    position: absolute;
-    display: block;
-    z-index: 4;
-    left: 20px;
-    top: 176px;
-}
+h3{
+    margin-bottom: max(13px,1.6%);
 
-#txt2{
-    position: absolute;
-    display: block;
-    z-index: 4;
-    left: 28px;
-    top: 241px;
-    font-size: 15px;
 }
 
 #trait{
@@ -43,30 +27,24 @@
 
 #vague{
     position: absolute;
-    display: block;
-    top: 305px;
+    width: 100%;
+    top: 33.37%;
     z-index: 6;
 }
 
 #bouton_orange{
-    position: absolute;
-    display: block;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 105px;
     height: 44px;
+    margin-left: max(135px,16.63%);
+    margin-top: max(446px,54.93%);
     border-radius: 10px;
-    left: 135px;
-    top: 719px;
+
     z-index: 7;
 }
-
-#valider{
-    position: absolute;
-    display: block;
-    top: 730px;
-    left: 163px;
-    z-index: 8;
-}
-
 
 .charging{
  
