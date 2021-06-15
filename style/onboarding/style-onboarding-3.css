@@ -41,14 +41,13 @@ h3{
     height: 44px;
     margin-left: max(135px,16.63%);
     margin-top: max(446px,54.93%);
+    margin-bottom: max(20px,2.46%);
     border-radius: 10px;
-
     z-index: 7;
 }
 
 .charging{
  
-    position: relative;
     display: flex;
     top: 730px;
     justify-content: space-around;
