@@ -1,0 +1,135 @@
+#carre_bleu{
+    position: absolute;
+    display: block;
+    background-color: #0F24B2;
+    width: 375px;
+    height: 219px;
+    z-index: 0;
+    border-radius: 0% 0% 5% 5% ;
+    z-index: -1;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    opacity: 0.7;
+
+}
+
+#questionnaire{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre";
+    font-size: 36px;
+    color: white;
+    top: 106.55px;
+    left: 20px;
+    z-index: 2;
+    opacity: 0.7;
+
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    left: 20px;
+    top: 45px;
+    z-index: 1;
+    opacity: 0.7;
+}
+
+#charging_white{
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+    width: 335px;
+    height: 16px;
+    border-radius: 5px;
+    opacity: 0.7;
+}
+
+#charging_pink{
+    display: block;
+    position: absolute;
+    background-color: #EF96C3;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+    width: 335px;
+    height: 16px;
+    border-radius: 5px;
+    z-index: 3;
+    opacity: 0.7;
+}
+
+#rect_pink{
+
+}
+
+
+#button_blue{
+    position: absolute;
+    display: block;
+    background-color: #0F24B2;
+    top: 670px;
+    left: 105px;
+    width: 160px;
+    height: 43px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+#continuer{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre";
+    font-size: 20px;
+    color: white;
+    left: 144px;
+    top: 680px;
+    z-index: 2;
+}
+
+
+#illu_match{
+    position: absolute;
+    display: block;
+    left: 45px;
+    top: 275px;
+    z-index: 3;
+}
+
+#info{
+    position: absolute;
+    display: block;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: white;
+    left: 60px;
+    top: 550px;
+    text-align: center;
+    line-height: 25px;
+    z-index: 4;
+}
+
+
+#rect_pink{
+    position: absolute;
+    display: block;
+    background-color: #ef96C3 ;
+    width: 335px;
+    height: 454px;
+    left: 20px;
+    top: 242px;
+    border-radius: 35px;
+    z-index: 1;
+}
+
+
+
+#home{
+    position: absolute;
+    display: block;
+    bottom: 0;
+}

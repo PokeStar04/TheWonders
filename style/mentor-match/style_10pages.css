@@ -1,0 +1,154 @@
+#carre_bleu{
+    position: absolute;
+    display: block;
+    background-color: #0F24B2;
+    width: 375px;
+    height: 219px;
+    z-index: 0;
+    border-radius: 0% 0% 5% 5% ;
+    z-index: -1;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+#questionnaire{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre";
+    font-size: 36px;
+    color: white;
+    top: 106.55px;
+    left: 20px;
+    z-index: 2;
+
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    left: 20px;
+    top: 45px;
+    z-index: 1;
+}
+
+#charging_white{
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+    width: 335px;
+    height: 16px;
+    border-radius: 5px;
+}
+
+#charging_pink{
+    display: block;
+    position: absolute;
+    background-color: #EF96C3;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+    width: 335px;
+    height: 16px;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+#choose{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre";
+    font-size: 20px;
+    color: black;
+    top: 237px;
+    left: 20px;
+}
+
+#choose1{
+    position: absolute;
+    display: block;
+    font-family: 15px;
+    font-family: "Abhaya Libre";
+    color: black;
+    top: 270px;
+    left: 20px;
+}
+
+#ananas{
+    position: absolute;
+    display: block;
+    top: 233px;
+    left: 287px;
+}
+
+#carre_beige{
+    position: absolute;
+    display: block;
+    width: 131px;
+    height: 131px;
+    background-color: #EBDFBB;
+    border-radius: 10px;
+    left: 40px;
+    top: 332px;
+}
+
+#oui{
+    position: absolute;
+    display: block;
+    font-size: 17px;
+    left: 91px;
+    top: 387px;
+}
+
+#carre_orange{
+    position: absolute;
+    display: block;
+    width: 131px;
+    height: 131px;
+    background-color: #D95E38;
+    border-radius: 10px;
+    top: 332px;
+    left: 204px;
+}
+
+#non{
+    position: absolute;
+    display: block;
+    font-size: 17px;
+    left: 250px;
+    top: 390px;
+
+}
+
+#button_blue{
+    position: absolute;
+    display: inline-block;
+    background-color: #0F24B2;
+    z-index: 10;
+    top: 662px;
+    left: 108px;
+    width: 158px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#valider{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre SemiBold";
+    font-size: 20px;
+    color: white;
+    left: 157px;
+    top: 675px;
+    z-index: 11;
+}
+
+#home{
+    position: absolute;
+    display: block;
+    bottom: 0;
+}

@@ -1,0 +1,170 @@
+#carre_bleu{
+    position: absolute;
+    display: block;
+    background-color: #0F24B2;
+    width: 375px;
+    height: 219px;
+    z-index: 0;
+    border-radius: 0% 0% 5% 5% ;
+    z-index: -1;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+
+}
+
+#questionnaire{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre";
+    font-size: 36px;
+    color: white;
+    top: 106.55px;
+    left: 20px;
+    z-index: 2;
+
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    left: 20px;
+    top: 45px;
+    z-index: 1;
+}
+
+#charging_white{
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+    width: 335px;
+    height: 16px;
+    border-radius: 5px;
+}
+
+#charging_pink{
+    display: block;
+    position: absolute;
+    background-color: #EF96C3;
+    top: 160px;
+    left: 20px;
+    z-index: 2;
+    width: 262px;
+    height: 16px;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+#choose{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre";
+    font-size: 20px;
+    color: black;
+    top: 237px;
+    left: 20px;
+}
+
+.pink_plein{
+    background-color: #EF96C3;
+    width: 160px;
+    height: 39px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#rect_pink3{
+
+    background-color: #0F24B2;
+}
+.choix{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px ;
+    justify-content: space-around;
+    top: 300px;
+    
+}
+
+.pink_vide{
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#EF96C3 ;
+    width: 160px;
+    height: 39px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.rect_pink{
+    padding-left: 15px;
+}
+
+.txt_white{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: white;
+
+}
+
+.txt_pink{
+    font-family: "Montserrat";
+    font-size: 14px;
+    color: #EF96C3;
+    top: 10px;
+}
+
+#button_blue{
+    position: absolute;
+    display: inline-block;
+    background-color: #0F24B2;
+    z-index: 10;
+    top: 340px;
+    left: 108px;
+    width: 158px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#valider{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre SemiBold";
+    font-size: 20px;
+    color: white;
+    left: 157px;
+    top: 355px;
+    z-index: 11;
+}
+
+#home{
+    position: absolute;
+    display: block;
+    top: 453px;
+}
+
+.deux{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    column-gap: 10px;
+    margin-left: 20px;
+}
+
+#crystal{
+    position: absolute;
+    display: block;
+    top: 237px;
+    left: 287px;
+}

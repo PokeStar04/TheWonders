@@ -1,0 +1,59 @@
+#background{
+    position: absolute;
+    display: block;
+    width: 375px;
+    height: 812px;
+    z-index: -3;
+}
+
+#vague_vector{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    z-index: -2
+}
+
+#femme_wonders{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 250px;
+    z-index: 1;
+}
+
+#txt{
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    line-height: 30px;
+}
+
+.charging{
+
+    position: absolute;
+    display: flex;
+    margin-top: 783px;
+    justify-content: space-around;
+    margin-left: 146px;
+    margin-right: 146px;
+    z-index: 5;
+    column-gap: 5px;
+    
+}
+
+.circle{
+    background-color: #726f6f;
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+
+}
+
+.circle1{
+    width: 13px;
+    height: 7px;
+    border-radius: 50px;
+
+}

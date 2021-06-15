@@ -1,0 +1,39 @@
+#bleu{
+    width: 375px;
+    height: 812px;
+    background-color: #0F24B2;
+}
+
+#logo{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    top: 280px;
+}
+
+p{
+    position: relative;
+    display: block;
+    top: 320px;
+    font-family: "Abhaya Libre ExtraBold";
+    color: white;
+    font-size: 35px;
+    left: 43px;
+}
+
+#filles{
+    position: relative;
+    display: block;
+    top: 400px;
+    left: 15px;
+    border-radius: 700px;
+}
+
+#section_cercle{
+    position: absolute;
+    display: block;
+    top: -70px;
+    left: 110px;
+
+}

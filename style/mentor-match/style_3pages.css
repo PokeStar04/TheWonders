@@ -1,0 +1,279 @@
+#bleu{
+    width: 375px;
+    height: 812px;
+    background-color: white;
+    z-index: -2;
+
+}
+
+#logo{
+    position: absolute;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    left: 110px;
+    top: 50px;
+    z-index: 1;
+}
+
+#chat{
+    position: absolute;
+    display: block;
+    top: 48px;
+    left: 293px;
+    z-index: 1;
+}
+
+#user{
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: grey;
+    width: 45px;
+    height: 45px;
+    top: 48px;
+    left: 30px;
+    z-index: 2;
+}
+
+#carre_mauve{
+    position: absolute;
+    display: block;
+    background-color: #9E4ACE;
+    width: 380px;
+    height: 200px;
+    z-index: 0;
+    border-radius: 0% 0% 5% 5% ;
+}
+
+#red_circle{
+    z-index: 3;
+    position: absolute;
+    display: block;
+    top: 240px;
+}
+#beige{
+    background-color: #EBDFBB;
+    width: 335px;
+    height: 190px;
+    position: absolute;
+    display: block;
+    top: 220px;
+    left: 20px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.15);
+    z-index: 5;
+
+}
+
+#run{
+    position: absolute;
+    display: block;
+    top: 280px;
+    z-index: 6;
+    left: 189px;
+}
+
+#run2{
+    position: absolute;
+    display: block;
+    z-index: 6;
+    top: 280px;
+    left: 269px;
+}
+
+#experts{
+    position: absolute;
+    display: block;
+    font-family: "Abhaya Libre ExtraBold";
+    color: black;
+    z-index: 6;
+    top: 239px;
+    font-weight: bold;
+    font-size: 23px;
+    left: 40px;
+}
+
+#find{
+    color:black;
+    font-family: "Abhaya Libre ExtraBold";
+    position: absolute;
+    display: block;
+    top: 130px;
+    font-size: 36px;
+    left: 43px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#exp{
+    position: absolute;
+    display: block;
+    color: black;
+    font-family: "Montserrat";
+    top: 280px;
+    left: 40px;
+    z-index: 6;
+}
+
+#exp1{
+    position: absolute;
+    display: block;
+    color: black;
+    font-family: "Montserrat";
+    top: 300px;
+    left: 40px;
+    z-index: 6;
+}
+
+#exp2{
+    position: absolute;
+    display: block;
+    color: black;
+    font-family: "Montserrat";
+    top: 320px;
+    left: 40px;
+    z-index: 6;
+}
+
+#exp3{
+    position: absolute;
+    display: block;
+    color: black;
+    font-family: "Montserrat";
+    top: 340px;
+    left: 40px;
+    z-index: 6;
+}
+
+#ellipse_orange{
+    position: absolute;
+    display: block;
+    top: 550px;
+
+}
+
+#step{
+    position: absolute;
+    display: block;
+    top: 425px;
+    height: 270px;
+    width: 293px;
+    background: rgba(239, 150, 195, 0.55);
+    padding: 0px 20px;
+    margin-left: 20px ;
+    padding-top: 20px;
+    border-radius: 10%;
+    
+
+}
+#step  #rect_pink{
+    opacity: 0.6;
+}
+
+#w1{
+    position: absolute;
+    left: 200px;
+    top: 425px;
+    z-index: 2;
+    height: 290px;
+
+}
+
+#step #opacity_1 #step1{
+    position: relative;
+    
+
+}
+
+.Font_Montserrat_Normal_17px{
+    line-height: 20px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    
+}
+
+.Font_Bold_Abhaya_17px{
+    font-family: "Abhaya Libre ExtraBold";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 20.4px;
+
+}
+
+#step #step1 {
+    margin-bottom: 2px;
+}
+
+#step2 #match{
+    margin-top: 2px;
+}
+
+#step2{
+    margin-bottom:5px ;
+    margin-top:5px ;
+}
+
+#step3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#home{
+    position: absolute;
+    display: block;
+    top: 762px;
+}
+
+#step1 #fill{
+    margin-top:5px ;
+}
+
+#rect_black{
+    position: absolute;
+    display: block;
+    background-color: black;
+    width: 147px;
+    height: 36px;
+    top: 705px;
+    z-index: 10;
+    left: 115px;
+    border-radius: 50px;
+    z-index: 10;
+
+}
+
+#matcher {
+    display: block;
+    position: absolute;
+    color: white;
+    top: 715px;
+    left: 160px;
+    z-index: 11;
+}
+
+#paillette{
+    display: block;
+    position: absolute;
+    top: 743px;
+    z-index: 12;
+    left: 190px;
+}
+
+#paillette1{
+    display: block;
+    position: absolute;
+    top: 742.5px;
+    left: 169px;
+    transform: rotate(25deg);
+}
+
+
+#paillette2{
+    display: block;
+    position: absolute;
+    top: 742.5px;
+    left: 215px;
+    transform: rotate(-25deg);
+}
