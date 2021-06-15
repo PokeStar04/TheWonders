@@ -3,21 +3,21 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="library/css_reset.css">
-        <link rel="stylesheet" href="library/font_px.css">
-        <link rel="stylesheet" href="library/var_root.css">
-        <link rel="stylesheet" href="library/grid_responsive.css">
-        <link rel="stylesheet" href="library/color.css">
-        <link rel="stylesheet" href="library/nav.css">
-        <link rel="stylesheet" href="logo.css">
-        <link rel="stylesheet" href="ressenti.css">
-        <link rel="stylesheet" href="popup_ressenti.css">
+        <link rel="stylesheet" href="../../library/css-reset.css">
+        <link rel="stylesheet" href="../../library/font-px.css">
+        <link rel="stylesheet" href="../../library/var-root.css">
+        <link rel="stylesheet" href="../../library/grid-responsive.css">
+        <link rel="stylesheet" href="../../library/color.css">
+        <link rel="stylesheet" href="../../library/nav.css">
+        <link rel="stylesheet" href="../../style/defi/style-ressenti-fin.css">
+        <link rel="stylesheet" href="../../style/popup/style-popup-ressenti.css">
+        
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
         <title>ressentie</title>
     </head>
     <body>
-
+        
         <div class="global_wrapper ">
             <div data-popup-ref="monPopup" class="monpp">  
                 <div class="popup"  data-popup-id="monPopup">
@@ -30,7 +30,7 @@
                         
                         <div class="box_cercle_popup">
 
-                            <img id="main" src="ressources/defi/ressenti/popup/clap_hand.svg" alt="">
+                            <img id="main" src="../../ressources/defi/ressenti-fin/clap_main.svg" alt="">
                             <div class="cercle_popup">
                                 
                             </div>
@@ -50,16 +50,17 @@
                         </div></div>
                     </div>
                 <div class="sup_popup">
-                    <img src="ressources/croix.svg" class="btn-close croix" data-dismiss-popup>                
+                    <img src="../../ressources/defi/ressenti-fin/croix.svg" class="btn-close croix" data-dismiss-popup>                
                 </div>
             </div>
                   
            
-                <div id="blur" class="wrapper col_m_1">
-                    <img src="ressources/logo.svg" alt="" class="logo_hl">
+                <div id="blur" class="wrapper col_m_1"><div class="cercle-orange"></div>
+                    <img src="../../ressources/defi/ressenti-fin/ellipse-mauve-ressenti.svg" class="elypse-mauve" alt="">
+                    <img src="../../ressources/logo/logo.svg" alt="" class="logo">
                     <h1 class="font_abhaya_regular_25px">Comment t’es-tu sentie<br>lors de ton défi ? </h1>
                     <div id="femme_canap">
-                        <img  src="ressources/defi/ressenti/femme_canap.svg" alt="">
+                        <img  src="../../ressources/defi/ressenti-fin/illu-canap.svg" alt="">
                     </div>
                     <div class="box_choix_emotion white_txt">
                         <div class="choixA">
@@ -96,9 +97,10 @@
                     </div>
                 </div>
             </div>
-            <div id="navbar" class="black_bg"></div>
-            <script>$("#navbar").load("nav.html");</script>
+           <div id="navbar" class="black_bg"></div>
+        <script>$("#navbar").load("../../html/navbar/nav.html");</script>
         </div>
+        
     </body>
-    <script src="start_popup.js"></script>
+    <script src="../../script/start-popup.js"></script>
 </html>
