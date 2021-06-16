@@ -1,8 +1,8 @@
 #carre_bleu{
-    position: absolute;
+    position: relative;
     display: block;
     background-color: #0F24B2;
-    width: 375px;
+    width: 100%;
     height: 219px;
     z-index: 0;
     border-radius: 0% 0% 5% 5% ;
@@ -11,9 +11,8 @@
 }
 
 #questionnaire{
-    position: relative;
-    display: block;
-
+    position: absolute;
+    
     top: 107px;
     left: 20px;
     z-index: 2;
@@ -104,6 +103,7 @@
     left: 130px;
     top: 391px;
     z-index: -1;
+    
 }
 
 #cercle2{
@@ -112,11 +112,4 @@
     left: -40px;
     top: 360px;
     z-index: -1;
-}
-
-#home{
-    position: absolute;
-    display: block;
-    bottom: 0;
-
 }
