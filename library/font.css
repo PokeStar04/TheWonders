@@ -1,10 +1,12 @@
 /*  H1 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 .font_abhaya_regular_35px{
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.1875em;
-    line-height: 2.5625em;
+    font-size: 2.1875rem;
+    line-height: 2.5625rem;
 }
 
 /*  H2 */
@@ -12,8 +14,8 @@
     font-family: Abhaya Libre ExtraBold;
     font-style: normal;
     font-weight: 800;
-    font-size: 1.5625em;
-    line-height: 1.8125em;
+    font-size: 1.5625rem;
+    line-height: 1.8125rem;
 }
 
 /*  H2  inter*/
@@ -21,8 +23,8 @@
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.25em;
-    line-height: 1.5em;    
+    font-size: 1.25rem;
+    line-height: 1.5rem;    
 }
 
 /*  corps de texte*/
@@ -30,15 +32,15 @@
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25em;
-    line-height: 1.125em;  
+    font-size: 1.25rem;
+    line-height: 1.125rem;  
 }
 
 /*  corps descriptif*/
-.font_inter_medieum_10px{
+.font_inter_medium_10px{
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
-    font-size: 0.625em;
-    line-height: 0.75em;
+    font-size: 0.625rem;
+    line-height: 0.75rem;
 }

@@ -1,22 +1,14 @@
 
-
-h1{
-    margin-top: max(72px,8.87%);
-    margin-bottom: max(70px,8.62%);
+h2 {
+    margin-bottom: max(42px, 5.17%);
 }
 
-h2{
-    margin-bottom: max(42px,5.17%);
-
+h3 {
+    margin-bottom: max(13px, 1.6%);
 }
 
-h3{
-    margin-bottom: max(13px,1.6%);
-
-}
-
-#trait{
-    border-bottom: 1px solid white; 
+#trait {
+    border-bottom: 1px solid white;
     width: 248px;
     position: absolute;
     display: block;
@@ -25,51 +17,39 @@ h3{
     z-index: 5;
 }
 
-#vague{
+#vague3 {
     position: absolute;
     width: 100%;
     top: 33.37%;
     z-index: 6;
 }
 
-#bouton_orange{
+#bouton_orange {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 105px;
     height: 44px;
-    margin-left: max(135px,16.63%);
-    margin-top: max(446px,54.93%);
-    margin-bottom: max(20px,2.46%);
+    margin-left: max(135px, 16.63%);
+    margin-top: max(446px, 54.93%);
+    margin-bottom: max(20px, 2.46%);
     border-radius: 10px;
     z-index: 7;
 }
 
-.charging{
- 
+.charging {
     display: flex;
-    top: 730px;
+
     justify-content: space-around;
     margin-left: 146px;
     margin-right: 146px;
     z-index: 5;
     column-gap: 5px;
-    
 }
 
-.circle{
+.swiper-slide:nth-child(3) h1 {
     
-    background-color: #726f6f;
-    width: 7px;
-    height: 7px;
-    border-radius: 50px;
-
-}
-
-.circle1{
-    width: 13px;
-    height: 7px;
-    border-radius: 50px;
-
+    margin-top: max(72px, 8.87%);
+    margin-bottom: max(70px, 8.62%);
 }
