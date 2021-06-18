@@ -51,18 +51,3 @@
     margin-right: 146px;
     z-index: 5;
 }
-.circle{
-    
-    background-color: #726f6f;
-    width: 7px;
-    height: 7px;
-    border-radius: 50px;
-
-}
-
-.circle1{
-    width: 13px;
-    height: 7px;
-    border-radius: 50px;
-
-}

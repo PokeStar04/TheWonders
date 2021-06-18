@@ -54,3 +54,11 @@ font-size: 15px;
 line-height: 18px;
 
 }
+
+.font_abhaya_regular_20px{
+      font-family: 'Abhaya Libre', serif;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
+}

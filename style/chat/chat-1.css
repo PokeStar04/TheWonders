@@ -46,14 +46,7 @@ justify-content: space-around;
 
 }
 
-.Font_800_Abhaya_24px{
 
-    font-family: Abhaya Libre ExtraBold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 28px;
-}
 
 .white_txt
 {
@@ -61,11 +54,13 @@ color: #FFFFFF;
 }
 .connected{
     position: relative;
+
     height: 11px;
     width: 11px;
     border-radius: 50%;
     background-color: #0FD23A;
-    top: -20px;
+    margin-left: 13vw;
+    top: -3vh;
   
     border: #FFFFFF solid 1px;
 }
@@ -80,8 +75,7 @@ color: #FFFFFF;
     border: #FFFFFF solid 1px;
 }
 .amis{
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     
 }
 .amis_1{
@@ -96,6 +90,9 @@ color: #FFFFFF;
 
 .infos_1{margin-left: 15px;
     min-width:  250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 flex-wrap: nowrap;}
 .infos_2{
 display: flex;
@@ -117,22 +114,7 @@ margin-right: 20px;
 }
 
 
-.Font_Bold_Montserrat_17px{
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 21px;
-font-variant: small-caps;
-}
-.Font_Normal_Montserrat_11px{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 100;
-font-size: 11px;
-line-height: 13px;
- }
  .nbr_2{
     margin-top: 1px;
     margin-left: 1px;
@@ -140,13 +122,6 @@ line-height: 13px;
 
 
 
- .Font_Normal_Montserrat_8px{
- font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 8px;
-line-height: 10px;
-}
 
     
   
@@ -156,15 +131,33 @@ line-height: 10px;
     padding-left: 20px;
     
 }
-.Font_800_Abhayat_13px{ 
-font-family: Abhaya Libre ExtraBold;
-font-size: 13px;
-font-style: normal;
-font-weight: 800;
-line-height: 15px;
-letter-spacing: 0em;
 
-}
 .click{
     color: red;
 }
+.Font_Normal_Montserrat_11px{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 13px;
+     }
+     .nbr_2{
+        margin-top: 1px;
+        margin-left: 1px;
+     }
+    
+    
+    
+     .Font_Normal_Montserrat_8px{
+     font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    }
+    .infos_2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }

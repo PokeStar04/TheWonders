@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../library/css-reset.css" />
+    <link rel="stylesheet" href="../../library/font-px.css" />
+    <link rel="stylesheet" href="../../library/var-root.css" />
+    <link rel="stylesheet" href="../../library/grid-responsive.css" />
+    <link rel="stylesheet" href="../../library/color.css" />
+    <link rel="stylesheet" href="../../library/nav.css" />
+    <link rel="stylesheet" href="../../style/chat/chat-conversation.css">
+    <title>Document</title>
+
+    <script>
+
+
+
+let historiqueMessage =['Hihihi moi aussi !',"J’étais impatiente de découvrir mon mentee nice to meet you ! ","On essaie : c’est notre mentalité ;)","Alors du coup quelles sont tes ambitions, tes objetifs émlilie ? ","Okay franchement c’est nickel ","Je travaille dans une entreprise de bien-être justement du coup j’ai une assez bonne connaissance du sujet. En premier, je voulais savoir quels sont tes pain points ? "];
+let counter = 0;
+
+
+window.onload =() =>{
+
+    let boxMessage = document.getElementById('messageEnvoyer')
+
+    const getMessage = () => {
+        userMessage = historiqueMessage[counter];
+        
+        counter++;
+        boxMessage.appendChild(document.createElement('div')).appendChild(document.createElement('p')).appendChild(document.createTextNode(userMessage)).parentElement.parentElement.className ="bloc-1";
+        userMessage = historiqueMessage[counter];
+        
+        counter++;
+        boxMessage.appendChild(document.createElement('div')).appendChild(document.createElement('p')).appendChild(document.createTextNode(userMessage)).parentElement.parentElement.className ="bloc-2";
+
+
+
+    };
+    document.getElementById('envoyer').addEventListener('click',(event) =>{
+        event.preventDefault();
+        let myMessage = document.getElementById('userMessage').value;
+        boxMessage.appendChild(document.createElement('div')).appendChild(document.createElement('p')).appendChild(document.createTextNode(myMessage)).parentElement.parentElement.className ="user-message";
+        document.getElementById('formulaire').reset();
+        setTimeout(getMessage, 3000);
+    });
+
+
+};
+
+
+
+
+
+    </script>
+</head>
+<body class="electric_blue_bg">
+
+    <div class="cercle-orange"></div>
+    <div class="forme-violet purple_bg"></div>
+    <img id="demi-cercle-rose" src="/ressources/chat/sujet-chat-1/ellipse-rose-sujet-chat.svg" alt="">
+    
+    <header>
+        <div>
+                <img src="/ressources/chat/nav-message/icone-fleche.svg" alt=""></div>
+                <p >JESSICA</p>
+                
+               <div >  <img src="/ressources/chat/nav-message/icone-map.svg" alt="">
+             </div>
+             <div>
+                <img src="/ressources/chat/nav-message/icone-appeler.svg" alt=""></div>
+            </header>
+
+
+    <div class="wrapper">
+
+
+
+
+
+    <form action="" id="formulaire">
+        <div class="nav-message">
+            
+             <img src="../../ressources/chat/nav-message/icone-appareil-photo.svg" alt="">
+             <input type="text" name="userMessage" id="userMessage"   placeholder="Envoyer votre message">
+             <img src="/ressources/chat/nav-message/icone-micro.svg" alt="">
+             <img src="/ressources/chat/nav-message/icone-gif.svg" alt="">
+
+            
+        </div>
+
+           
+
+            <button type="submit" id="envoyer">Go placer une fleche ici</button>
+
+
+    </form>
+
+        
+        <div id="messageEnvoyer"></div>
+
+        
+</div>
+</body>
+</html>
