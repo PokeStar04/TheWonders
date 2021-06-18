@@ -24,7 +24,6 @@ h1 {
 .poing {
     position: relative;
     width: 100%;
-    margin-bottom: max(32px, 3.94%);
 }
 h2 {
     margin-bottom: max(22px, 2.71%);
@@ -147,5 +146,33 @@ margin-bottom: 30px;
 .publication-card footer .interaction-box img:nth-child(2){
 
 margin-right: 15px;
+
+}
+.box-poing{
+
+    position: relative;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: max(32px, 3.94%);
+
+}
+.box-poing div{
+    position: absolute;
+    width: 65%;
+    margin: 0 17.5%;
+    
+    
+
+}
+.box-poing  p{
+    
+color: white;
+border-radius: 10px;
+background-color: #0F24B2;
+text-align: center;
+padding: 3% 0;
+
+
 
 }

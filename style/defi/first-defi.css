@@ -77,11 +77,16 @@ height: 60px;
  }
  .box-defi .right{
      width: 100%;
+     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 
     
+ }
+ .box-defi .right .step{
+position: absolute;
+
  }
  .box-defi .right .step div{
  display: flex;
