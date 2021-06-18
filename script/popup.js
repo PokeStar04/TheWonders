@@ -46,3 +46,24 @@ $(() => {
         $(".blur_active").removeClass("blur_active");
     });
 });
+
+
+
+cree un test Boolean 
+
+
+
+const messages = document.getElementById('messages');
+
+
+shouldScroll = messages.scrollTop + messages.clientHeight === messages.scrollHeight;
+
+
+function scrollToBottom() {
+    messages.scrollTop = messages.scrollHeight;
+}
+apres avoir ajouter me saage si 
+
+if (!shouldScroll) {
+    scrollToBottom();
+}
