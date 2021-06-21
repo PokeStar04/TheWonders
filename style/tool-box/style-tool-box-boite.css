@@ -1,5 +1,6 @@
 h1{
-    margin-top: max(28px,3.15%);
+	margin-top: max(28px,3.15%);
+	z-index: 1;
 }
 
 #cercle-mauve{
@@ -92,6 +93,9 @@ h2{
 	position: fixed;
 	top: 0;
 	right: 0;
+	z-index: -1;
+
+
 }
 .cercle {
 	width: 240px;
