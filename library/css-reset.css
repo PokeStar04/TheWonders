@@ -47,3 +47,25 @@ table {
 	border-spacing: 0;
 }
 a{ text-decoration: none;}
+:root{
+
+	font-size: 16px;
+}
+a:hover{
+
+	color: black;
+
+
+}
+a:onclick{ 
+
+color: black;
+
+
+}
+a:visited{ 
+
+	color: black;
+	
+	
+	}

@@ -1,0 +1,178 @@
+body::after {
+    position: absolute;
+    content: "";
+    height: 320px;
+    width: 320px;
+    right: 0;
+    clip-path: circle(50% at 75% 50%);
+    background-color: #ef96c3;
+    z-index: -1;
+    top: 477px;
+}
+.logo {
+    margin-bottom: 30px;
+}
+.coeur-1 {
+    position: absolute;
+    top: 62px;
+    left: 83.2%;
+}
+
+h1 {
+    margin-bottom: max(20px, 2.46%);
+}
+.poing {
+    position: relative;
+    width: 100%;
+}
+h2 {
+    margin-bottom: max(22px, 2.71%);
+}
+.top_card {
+    display: grid;
+    grid-template-columns: 0.2179fr 1fr;
+    height: 80px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: max(20px, 2.46%);
+}
+.description-top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img-top-pp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top_wonders:last-child {
+    margin-bottom: max(45px, 5.54%);
+}
+
+.swiper-slide {
+    width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+    width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+    width: 40%;
+}
+.swiper-container {
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    margin: 40px 0px;
+    left: -25px;
+    
+}
+
+.card-commentaire {
+    height: 209px;
+    width: 160px;
+    background-color: #efb33e;
+    border-radius: 10px;
+    padding: 0px 12px;
+    display: grid;
+    grid-template-rows: 0.8fr 0.2fr;
+}
+.card-commentaire header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card-commentaire header p {
+    position: relative;
+    top: -10px;
+}
+.publication-card {
+display: inline-block;    
+position: relative;
+width: 100%;
+margin-bottom: 30px;
+
+
+}
+.last-publi{
+    margin-bottom: 105px;
+}
+.publication-card header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+.publication-card header img{
+    height: 30px;
+}
+.publication-card main .img_publi {
+    position: relative;
+    margin-bottom: 10px;
+}
+.publication-card main .img_publi img:nth-child(1) {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    
+}
+.publication-card main .img_publi img:nth-child(2) {
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+    margin-left: 5.42%;
+    width: 80px;
+
+
+}
+.publication-card footer .interaction-box{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px;
+    
+
+}
+.publication-card footer .interaction-box img:nth-child(2){
+
+margin-right: 15px;
+
+}
+.box-poing{
+
+    position: relative;
+    display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: max(32px, 3.94%);
+
+}
+.box-poing div{
+    position: absolute;
+    width: 65%;
+    margin: 0 17.5%;
+    
+    
+
+}
+.box-poing  p{
+    
+color: white;
+border-radius: 10px;
+background-color: #0F24B2;
+text-align: center;
+padding: 3% 0;
+
+
+
+}

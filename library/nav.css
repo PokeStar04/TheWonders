@@ -1,24 +1,24 @@
-#navbar{
-   position: absolute;
-   width: 100%;
-   bottom: 0;
-   display: flex;
-   
+#navbar {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+
     width: 100%;
     height: 60px;
-    max-height: 7.39%;  
-
+    max-height: 7.39vh;
 }
-#navbar > ul, #navbar li {
+#navbar > ul,
+#navbar li {
     display: flex;
     align-items: center;
     list-style-type: none;
 }
 #navbar ul {
-    
     width: 100%;
-    padding-left: max(48px,12.8%);
-    padding-right: max(48px,12.8%);
+    padding-left: max(48px, 12.8%);
+    padding-right: max(48px, 12.8%);
     justify-content: space-between;
 }
 /* Code html qui génere la nav bar

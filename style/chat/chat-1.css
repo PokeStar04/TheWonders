@@ -1,10 +1,11 @@
 header{
-    width: 375px;
+    position: relative;
+    width: 100%;
     height: 240px;
     background-color: #EFB33E;   
     border-radius: 0px 0px 15px 15px; 
-    
     margin-bottom: 23px;
+    
 }
 .chat_nav{
 
@@ -19,10 +20,10 @@ header{
 
 display: flex;
 justify-content: space-around;
-    
-    align-items: center;
-    align-self: center;
-    column-gap: 12px;
+
+align-items: center;
+align-self: center;
+column-gap: 12px;
     
 
 }
@@ -39,36 +40,21 @@ justify-content: space-around;
     top: 26px;
     display: flex;
     justify-content: space-between;
-    margin: 0px 30px;
+    padding: 0px 30px;
+    width: 100%;
 
 
 }
 
-.Font_800_Abhaya_24px{
 
-    font-family: Abhaya Libre ExtraBold;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 28px;
-}
 
 .white_txt
 {
 color: #FFFFFF;
 }
-.connected{
-    position: relative;
-    height: 11px;
-    width: 11px;
-    border-radius: 50%;
-    background-color: #0FD23A;
-    top: -20px;
-    left: 48px;
-    border: #FFFFFF solid 1px;
-}
+
 .disconnected{
-    position: absolute;
+    position: relative;
     height: 11px;
     width: 11px;
     border-radius: 50%;
@@ -78,13 +64,15 @@ color: #FFFFFF;
     border: #FFFFFF solid 1px;
 }
 .amis{
-    display: flex;
-    flex-wrap: wrap;
+    
+    width: 100%;
     
 }
 .amis_1{
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-bottom: 19px;
     margin-top: 13px;
     border-bottom: 0.2px solid #C4C4C4;
@@ -94,6 +82,10 @@ color: #FFFFFF;
 
 .infos_1{margin-left: 15px;
     min-width:  250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 flex-wrap: nowrap;}
 .infos_2{
 display: flex;
@@ -115,22 +107,7 @@ margin-right: 20px;
 }
 
 
-.Font_Bold_Montserrat_17px{
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 21px;
-font-variant: small-caps;
-}
-.Font_Normal_Montserrat_11px{
-font-family: Montserrat;
-font-style: normal;
-font-weight: 100;
-font-size: 11px;
-line-height: 13px;
- }
  .nbr_2{
     margin-top: 1px;
     margin-left: 1px;
@@ -138,13 +115,6 @@ line-height: 13px;
 
 
 
- .Font_Normal_Montserrat_8px{
- font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 8px;
-line-height: 10px;
-}
 
     
   
@@ -154,15 +124,49 @@ line-height: 10px;
     padding-left: 20px;
     
 }
-.Font_800_Abhayat_13px{ 
-font-family: Abhaya Libre ExtraBold;
-font-size: 13px;
-font-style: normal;
-font-weight: 800;
-line-height: 15px;
-letter-spacing: 0em;
 
-}
 .click{
     color: red;
 }
+.Font_Normal_Montserrat_11px{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 11px;
+    line-height: 13px;
+     }
+     .nbr_2{
+        margin-top: 1px;
+        margin-left: 1px;
+     }
+    
+    
+    
+     .Font_Normal_Montserrat_8px{
+     font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 8px;
+    line-height: 10px;
+    }
+    .infos_2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .profil-co{
+        position: relative;
+    }
+
+    .profil-co .connected{
+
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        height: 11px;
+        width: 11px;
+        background-color: #0FD23A;
+        border-radius: 50%;
+
+    }
+ 

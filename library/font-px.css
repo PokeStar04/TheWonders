@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 /*  H1 */
 .font_abhaya_regular_35px{
-    font-family: Abhaya Libre ExtraBold;
+    font-family: 'Abhaya Libre', serif;
     font-style: normal;
     font-weight: 800;
     font-size: 35px;
@@ -9,7 +11,7 @@
 
 /*  H2 */
 .font_abhaya_regular_25px{
-    font-family: Abhaya Libre ExtraBold;
+    font-family: 'Abhaya Libre', serif;
     font-style: normal;
     font-weight: 800;
     font-size: 25px;
@@ -18,7 +20,7 @@
 
 /*  H2  inter*/
 .font_inter_medium_20px{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -27,7 +29,7 @@
 
 /*  corps de texte*/
 .font_inter_regular_15px{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -36,9 +38,27 @@
 
 /*  corps descriptif*/
 .font_inter_medium_10px{
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 10px;
     line-height: 12px;
+}
+
+.font_inter_bold_15px{
+   
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 18px;
+
+}
+
+.font_abhaya_regular_20px{
+      font-family: 'Abhaya Libre', serif;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 24px;
 }

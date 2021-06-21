@@ -1,0 +1,280 @@
+
+body::before {
+    content: "";
+    padding: 70px;
+    background-color: #0f24b2;
+    clip-path: circle(45.4% at 64% 21%);
+    position: absolute;
+    right: 0;
+}
+
+.logo{
+
+    margin-bottom: 45px;
+}
+.swiper-container {
+    width: 100%;
+            margin-bottom: 50px;
+
+    
+}
+
+.swiper-pagination{
+
+
+}
+
+.swiper-pagination-bullet-active {
+    position: relative;
+    
+    background-color: #EF96C3 !important;
+}
+
+.wrapper-defi{
+    position: relative;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    
+    }
+.box-defi{
+    position: relative;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    
+    
+    height: 25.49vh;
+    
+    
+    
+    }
+    .box-defi .left{
+        position: relative;
+    
+        display: grid;
+     }
+     .box-defi .left div:nth-child(1){
+    
+    
+        display: flex;
+        justify-content: space-around;
+    
+        align-items: center;
+     }
+     .box-defi .left div:nth-child(2){
+    
+    
+        text-align: center;
+        
+     }
+     .box-defi .left div img{
+    height: 60px;
+    
+    
+     }
+     .box-defi .right{
+         width: 100%;
+         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        
+     }
+     .box-defi .right .step{
+    position: absolute;
+    
+     }
+     .box-defi .right .step div{
+     display: flex;
+     
+    
+    }
+    .box-defi .right .step div span{
+        margin: 10px;
+        
+       }
+       .box-defi .right .step div p{
+           display: flex;
+           align-items: center;
+        
+        
+       }
+       .box-defi .right .step div{
+        border-radius: 15px;
+        background-color: white;
+        padding: 5px 0px;
+        padding-right: 10px;
+        margin: 10px;
+    
+    
+       }
+       
+       .box-choix{
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+       }
+       
+
+       .swiper-wrapper .swiper-slide:nth-child(1) h1{
+
+        margin-bottom: 30px;
+       }
+       .swiper-wrapper .swiper-slide:nth-child(1) h3:nth-child(3){
+        margin-bottom: 30px;
+
+  
+       }
+
+       .swiper-wrapper .swiper-slide:nth-child(1) h2:nth-child(5){
+        margin-bottom: 20px;
+       }
+       .bloc-bleu{
+
+        position: relative;
+        left: -6%;
+        width: 56%;
+        height: 74px;
+    margin-bottom: 70px;
+       }
+       .swiper-wrapper .swiper-slide:nth-child(1) h3:nth-child(7){
+        
+        margin-bottom: 10px;
+       }
+       .swiper-wrapper .swiper-slide:nth-child(1) h3:nth-child(8){
+        
+        margin-bottom: 50px;
+       }
+       body{
+        margin-bottom: 30px;
+       }
+
+       .bloc-bleu img:nth-child(1){
+           position: absolute;
+           right: 17.5%;
+           top: 25px;
+           right: 50px;
+           z-index: 2;
+       }
+       .bloc-bleu img:nth-child(2){
+        position: absolute;
+        right: -40px;
+        z-index: 1;
+    }
+    .femme-verre{
+
+        position: absolute;
+        right: 0;
+     bottom: 0;
+        
+
+    }
+
+
+
+    .box-squad{
+
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #EF96C3;
+        border-radius: 15px;
+        padding: 5%;
+        text-align: center;
+        margin-bottom: 25px;        
+    }
+
+
+
+    .box-squad div p{
+
+        
+        margin-top: 6px;
+
+
+    }
+
+
+    .box-choix {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 130px;
+    }
+    .btn-choix {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 38.21%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid #0f24b2;
+    }
+
+.swiper-slide:nth-child(2)::after{  
+    width: 70%;
+    content: "You got it girl ";
+    font-family: Abhaya Libre ExtraBold;
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+padding: 17px 15px;
+border-radius: 0 150px 150px 0;
+    background-color: #0f24b2;
+    color: white;
+    position: absolute;
+    bottom: 40%;
+}
+
+.femme-lun{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.btn-choix {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38.21%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #0f24b2;
+}
+.btn-go {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34.63%;
+    margin-left:  65.37%;
+    height: 58px;
+    border-radius: 10px;
+    border: 1px solid #0f24b2;
+    margin-bottom: 8vh;
+   
+}
+
+
+.swiper-slide:nth-child(2) h1{
+    margin-left: 25%;
+    width: 75%;
+    margin-bottom: 30px;
+display: flex;
+flex-direction: row-reverse;
+
+}
+.swiper-slide:nth-child(2) h3:nth-child(6){
+    text-align: right;
+width: 50%;
+margin-left: 50%;
+margin-bottom: 25px;
+}
