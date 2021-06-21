@@ -1,0 +1,166 @@
+html, body {
+	height: 100vh;
+}
+header {
+	padding: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+	position: relative;
+	margin-bottom: 40px;
+}
+.fleche-retour {
+	position: absolute;
+	left: 24px;
+}
+
+.raconter-defi {
+	display: flex;
+	margin-bottom: 50px;
+}
+.champs-photo {
+	flex: 1;
+    width: 30vw;
+    height: 30vw;
+	background-color: #C4C4C4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.raconter-defi p {
+	flex: 2;
+	margin-left: 10px;
+}
+
+.partager-sur {
+	margin-bottom: 20px;
+}
+
+.bouton-choix {
+	position: relative;
+	padding: 12px 0;
+	border-top: 0.3px solid #C4C4C4;
+}
+.bouton-choix-dernier {
+	border-bottom: 0.3px solid #C4C4C4;
+	margin-bottom: 20px;
+}
+.bouton-choix img {
+	position: absolute;
+	right: 20px;
+	top: calc(50% - 6px);
+}
+
+.bouton-choix-reseaux {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.bouton-partager {
+	padding: 16px;
+	border-radius: 10px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.centrer {
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.citation {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	align-items: center;
+}
+.citation p {
+	margin-right: 20px;
+}
+.decor-perso-cercle {
+	position: relative;
+}
+.perso {
+	position: relative;
+	z-index: 1;
+}
+.decor-perso-cercle .cercle-orange {
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: -30px;
+}
+
+.ellipse-orange {
+	position: absolute;
+	top: 10%;
+	right: 0;
+	z-index: -1;
+}
+
+
+/*** téléchargé depuis https://www.cssscript.com/realistic-ios-switch-pure-css/ ***/ 
+.form-switch {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.form-switch i {
+  position: relative;
+  display: inline-block;
+  margin-right: .5rem;
+  width: 46px;
+  height: 26px;
+  background-color: #e6e6e6;
+  border-radius: 23px;
+  vertical-align: text-bottom;
+  transition: all 0.3s linear;
+}
+
+.form-switch i::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 42px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+  transition: all 0.25s linear;
+}
+
+.form-switch i::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+  transform: translate3d(2px, 2px, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.form-switch:active i::after {
+  width: 28px;
+  transform: translate3d(2px, 2px, 0);
+}
+
+.form-switch:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
+
+.form-switch input { display: none; }
+
+.form-switch input:checked + i { background-color: #EF96C3; }
+
+.form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
+
+.form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }

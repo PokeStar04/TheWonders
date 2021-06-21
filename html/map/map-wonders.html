@@ -7,11 +7,40 @@
     <link rel="stylesheet" href="../../library/color.css">
     <link rel="stylesheet" href="../../library/font-px.css">
     <link rel="stylesheet" href="../../library/grid-responsive.css">
-    <link rel="stylesheet" href="../../style/onboarding/style-onboarding-3.css">
+    <link rel="stylesheet" href="../../style/map/style-plan-wonders.css">
+    <link rel="stylesheet" href="../../library/nav.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   </head>
 
  <body class="beige_bg">
-   <img src="../../ressources/map/chemin.svg" alt="Plan de ville" id="plan">
-   <img src="../../ressources/map/">
+  <img src="../../ressources/map/chemin.svg" alt="Plan de ville" id="plan" width="100%">
+  <img src="../../ressources/map/logo-wondermap.svg" id="logo-wondermap">
+  <h1 class="font_abhaya_regular_25px">PARIS</h1>
+  <div class="wrapper">
+    <div class="boutton-mauve">
+        <div class="rect_purple purple_bg">
+          <div class="font_inter_medium_20px white_txt localisation">TU ES AVEC ÉRICA ?</div>
+
+          <a href="map-bump.html"><div class="boutton-orange yellow_bg white_txt">
+            <img src="../../ressources/map/icone-vibration.svg" class="vibration-bas">
+            BUMP
+            <img src="../../ressources/map/icone-vibration.svg" class="vibration-haut">
+          </div></a>
+        </div>
+      </div>    
+   </div>
+  <img id="personne-1" src="../../ressources/map/personne-1.svg" alt="Photo de profil personne 1">
+  <img id="personne-2" src="../../ressources/map/personne-2.svg" alt="Photo de profil personne 2">
+  <img id="personne-3" src="../../ressources/map/personne-3.svg" alt="Photo de profil personne 3">
+  <img id="personne-4" src="../../ressources/map/personne-4.svg" alt="Photo de profil personne 4">
+
+  <span id="notif" class="electric_blue_bg"></span>
+
+  <div id="navbar" class="black_bg"></div>
+    <script>$("#navbar").load("../../html/navbar/nav.html");</script>
+
 
  </body>
+ </html>

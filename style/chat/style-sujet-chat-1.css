@@ -1,0 +1,119 @@
+html, body {
+	height: 100vh;
+	overflow: hidden;
+}
+
+.chat_header {
+	padding: 24px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.chat_header h2 {
+	font-weight: bold;
+}
+
+.chat_header > div {
+	display: flex;
+}
+.chat_header > div img, .chat_header > div h2 {
+	margin: 0 8px;
+}
+
+.messages {
+	position: relative;
+	z-index: 1;
+	padding: 0 16px;
+	overflow-y: scroll;
+	height: 100%;
+	padding-bottom: 160px;
+}
+.my_messages {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-bottom: 32px;
+}
+.their_messages {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 32px;
+	margin-left: 46px;
+}
+.their_messages .mentor_pp {
+	position: absolute;
+	left: -46px;
+	bottom: 24px;
+}
+
+.my_messages .message:not(:last-child), .their_messages .message:not(:last-child) {
+	margin-bottom: 8px;
+}
+
+.message {
+	padding: 12px;
+	border-radius: 10px;
+	width: 50%;
+	position: relative;
+}
+
+.seen {
+	font-weight: bold;
+}
+
+
+.chat_footer {
+	position: absolute;
+	bottom: 0;
+	/* filter: drop-shadow(0px -4px 4px rgba(0, 0, 0, 0.25)); */
+	padding: 24px 16px;
+	width: 100%;
+	z-index: 1;
+}
+.ellipse_rose_footer {
+	position: absolute;
+	width: 158px;
+	height: 158px;
+	background-image: url(../../ressources/Chat/sujet-chat-1/ellipse-rose-sujet-chat.svg);
+	background-size: 158px;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0;
+	right: 10%;
+}
+
+.text_input {
+	padding: 8px 16px;
+	border-radius: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+.text_input > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.text_input > div img {
+	margin: 0 8px;
+}
+
+.ellipse_jaune {
+	position: fixed;
+	width: 310px;
+	height: 310px;
+	right: -155px;
+	top: 9.73%;
+	border-radius: 50%;
+}
+.ellipse_rose {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: -150px;
+	top: 48.6%;
+	border-radius: 50%;
+}

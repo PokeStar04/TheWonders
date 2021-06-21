@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../../library/css-reset.css">
+	<link rel="stylesheet" href="../../library/color.css">
+	<link rel="stylesheet" href="../../library/font-px.css">
+	<link rel="stylesheet" href="../../library/grid-responsive.css">
+	<link rel="stylesheet" href="../../style/map/style-plan-bump.css">
+	<link rel="stylesheet" href="../../library/nav.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body class="beige_bg">
+	
+	<div class="ios-notification">
+		<div class="notification-titre">
+			<div class="notification-titre-container">
+				<img src="../../ressources/map/logo-appli.svg" alt="Logo appli TheWonders">
+				<div class="notification-titre-texte">THE WONDERS</div>
+			</div>
+			<div class="notification-titre-temps">3m ago</div>
+		</div>
+		<p>Des wonders ont bumpé à proximité !</p>
+	</div>
+	
+	<img src="../../ressources/map/chemin.svg" alt="Plan de ville" id="plan" width="100%">
+	<img src="../../ressources/map/logo-wondermap.svg" id="logo-wondermap">
+	<h1 class="font_abhaya_regular_25px">PARIS</h1>
+	<div class="wrapper">
+		<div class="boutton-mauve">
+			<div class="rect_purple purple_bg">
+				<div class="font_inter_medium_20px white_txt localisation">REJOINS LÉA & ÉRICA</div>
+				
+				<div class="boutton-orange yellow_bg white_txt">
+					<img src="../../ressources/map/icone-go.svg">
+				</div>
+			</div>
+		</div>    
+	</div>
+	<div class="personne-1-bloc">
+		<img id="personne-1" src="../../ressources/map/personne-1.svg" alt="Photo de profil personne 1">
+		<span id="notif" class="electric_blue_bg"></span>
+	</div>
+	<img id="personne-2" src="../../ressources/map/personne-2.svg" alt="Photo de profil personne 2">
+	<img id="personne-3" src="../../ressources/map/personne-3.svg" alt="Photo de profil personne 3">
+	<img id="personne-4" src="../../ressources/map/personne-4.svg" alt="Photo de profil personne 4">
+	
+	
+	<div id="navbar" class="black_bg"></div>
+	<script>$("#navbar").load("../../html/navbar/nav.html");</script>
+</body>
+</html>

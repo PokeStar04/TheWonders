@@ -1,0 +1,105 @@
+#logo-wondermap{
+    margin-top: max(47px,5.79%);
+    margin-left: max(74px,9.11%);
+    margin-bottom: max(13px,1.6%);
+    z-index: 1;
+}
+
+#plan{
+    position: absolute;
+    z-index: -1;
+
+}
+/* 
+.boutton-mauve{
+    
+} */
+
+
+.rect_purple{
+    position: relative;
+    border-radius: 20px;
+    z-index: 2;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-bottom: max(533px,84.2%);
+   
+}
+
+.localisation{
+    z-index: 3;
+
+}
+
+.boutton-orange{
+    position: relative;
+    border-radius: 20px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+
+#personne-1{
+    position: absolute;
+    display: block;
+    top: 17.49%;
+    left: 307px;
+}
+
+#personne-2{
+    position: absolute;
+    display: block;
+    top: 45.38%;
+    left: 3.45%;
+}
+
+#personne-3{
+    position: absolute;
+    display: block;
+    top: 45.07%;
+    left: 193px;
+    z-index: 1;
+}
+
+#personne-4{
+    position: absolute;
+    display: block;
+    top: 49.01%;
+    left: 186px;
+    z-index: -1;
+}
+
+#notif{
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 500px;
+    top: 17.86%;
+    left: 89.33%;
+}
+
+.vibration-bas {
+    position: absolute;
+    transform: rotate(180deg);
+    left: 8px;
+    bottom: 2px;
+}
+.vibration-haut {
+    position: absolute;
+    right: 8px;
+    top: 2px;
+}
