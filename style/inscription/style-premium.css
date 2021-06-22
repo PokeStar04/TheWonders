@@ -30,6 +30,7 @@ body{
 
 .premium_page li:not(:last-child) { 
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .premium_page li:before {
