@@ -54,6 +54,16 @@ font-size: 15px;
 line-height: 18px;
 
 }
+.font_inter_semi-bold_15px{
+   
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+
+}
 
 .font_abhaya_regular_20px{
       font-family: 'Abhaya Libre', serif;
