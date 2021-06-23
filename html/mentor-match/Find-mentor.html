@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
-    <link rel="stylesheet" href="style_3pages.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../library/css-reset.css" />
+    <link rel="stylesheet" href="../../library/color.css" />
+    <link rel="stylesheet" href="../../library/font-px.css" />
+    <link rel="stylesheet" href="../../library/grid-responsive.css" />
+    <link rel="stylesheet" href="../../style/defi/style-find-mentor.css" />
+    <link rel="stylesheet" href="../../library/nav.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
  </head>
  <body>
-    <section id="bleu">
+
     
-    <img id="logo" src="logo.webp" alt="Logo TheWonders" width="160px">
-    <img id="chat" src="icone.chat.png" alt="Icône chat" width="48px">
-    <span id="user"></span>
-    <span id="carre_mauve"></span>
-    <p id="find">Trouve ton mentor !</p>
-    <span id="beige"></span>
-    <img id="run" src="run.png"   alt="femme qui court en dessin" width="80px">
-    <img id="run2" src="run2.png"   alt="femme qui court en dessin" width="80px">
-    <p id="experts">Experts en audace !</p>
-    <p id="exp">Prolonge ton</p>
-    <p id="exp1">expérience</p>
-    <p id="exp2">Wonders avec </p> 
-    <p id="exp3">notre mentoring ! </p>
-    <img id="ellipse_orange" src="Ellipse 64.png"   alt="ellipse orange" width="140px">
-        
-     <img id="w1" src="w1.png" alt="femme TheWONDERS" height="286px">
+  <div class="wrapper">
 
-      <div id="step">
-      <span id="rect_pink"></span>
-      <p id="step1" class="Font_Bold_Abhaya_17px">STEP 1 : </p>
-      <p id="fill" class="Font_Montserrat_Normal_17px">Remplis le <br> questionnaire</p>
-      <p id="step2" class="Font_Bold_Abhaya_17px">STEP 2 : </p>
-      <p id="match" class="Font_Montserrat_Normal_17px">On te matche <br> avec un.e <br>mentor qui te <br> correspond</p>
-      <p id="step3" class="Font_Bold_Abhaya_17px">STEP 3 :</p>
-      <p id="coach" class="Font_Montserrat_Normal_17px">Tu es coachée <br> pour suivre ta <br> progression ! </p>
+    <img class="logo" src="../../ressources/logo/logo.svg">
 
-      
+    <p class="find font_abhaya_regular_35px black_txt">Trouve ton mentor !</p>
+    <div class="carre-jaune yellow_bg">
+      <p class="experts font_abhaya_regular_25px white_txt">Experts en audace !</p>
+      <p class="exp font_inter_regular_15px white_txt">Prolonge ton expérience Wonders avec notre mentoring !</p>
+      <img class="run" src="../../ressources/defi/defi-find-mentor/illu-run-mentor1.svg" alt="femme qui court en dessin" >
     </div>
+        
+      <div class="step-principal pink_bg">
+        <div id="step ">
+          <p id="step1" class="font_abhaya_regular_25px white_txt">STEP 1 : </p>
+          <p id="fill" class="font_inter_medium_10px white_txt">Remplis le <br> questionnaire</p>
+          <p id="step2" class="font_abhaya_regular_25px white_txt">STEP 2 : </p>
+          <p id="match" class="font_inter_medium_10px white_txt">On te matche <br> avec un.e <br>mentor qui te <br> correspond</p>
+          <p id="step3" class="font_abhaya_regular_25px white_txt">STEP 3 :</p>
+          <p id="coach" class="font_inter_medium_10px white_txt">Tu es coachée <br> pour suivre ta <br> progression ! </p>
+          <img class="w1" src="../../ressources/defi/defi-find-mentor/img-wonders-mentor1.svg" alt="femme TheWONDERS" height="286px">
 
-    <span id="rect_black"></span>
-    <p id="matcher" class="Font_Bold_Abhaya_17px">Matcher !</p>
-    <img id="paillette" src="Paillette.png" alt="éléments de déco" width="2.7px">
-    <img id="paillette1" src="Paillette.png" alt="éléments de déco" width="2.7px">
-    <img id="paillette2" src="Paillette.png" alt="éléments de déco" width="2.7px">
+       </div>
+   </div>
+  
+   <div class="btn-blue">
+      <span class="rect_blue electric_blue_bg"></span>
+      <p class="matcher font_inter_medium_20px white_txt">Matcher !</p>
+          
+  </div>
 
-    <img id="red_circle" src="Déco.png" alt="élément décoratif" width="100px">
-    
-    <img id="home" src="footer.png" alt="footer" width="100%">
+  </div>
 
-</section>  
+<img class="ellipse" src="../../ressources/defi/defi-find-mentor/ellipse-mentor1.svg"   alt="ellipse décorative">
 
 
+<div id="navbar" class="black_bg"></div>
+<script>
+    $("#navbar").load("../../html/navbar/nav.html");
+</script>
  </body>
