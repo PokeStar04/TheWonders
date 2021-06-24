@@ -99,3 +99,13 @@
     font-size: 20px;
     line-height: 24px;
 }
+
+.font_inter_600_25px{
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 30px;
+}
