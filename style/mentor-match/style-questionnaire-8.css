@@ -38,7 +38,7 @@ h1{
     /**top: 160px;
     left: 20px;**/
     z-index: 2;
-    width: 248px;
+    width: 335px;
     height: 16px;
     border-radius: 5px;
     z-index: 3;
@@ -70,62 +70,15 @@ h1{
     z-index: 11;
 }
 
-.hand{
-    position: relative;
-    top: 56px;
-}
-
-
-.pink_plein{
-    background-color: #EF96C3;
-    width: 160px;
-    height: 39px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .choix{
     position: relative;
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px ;
-    justify-content: space-between;
     top: 15px;
     margin-bottom:  38px;
     
-}
-
-.pink_vide{
-    background-color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-color:#EF96C3 ;
-    width: 160px;
-    height: 39px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.rect_pink{
-    padding-left: 15px;
-}
-
-.txt_white{
-    font-family: "Montserrat";
-    font-size: 14px;
-    color: white;
-
-}
-
-.txt_pink{
-    font-family: "Montserrat";
-    font-size: 14px;
-    color: #EF96C3;
-
 }
 
 
@@ -140,6 +93,73 @@ h1{
 }
 
 .precedent{
-
     color: #000;
+}
+
+
+
+.choix{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+
+    margin-left: 20px;
+    margin-right: 20px;
+        
+}
+
+.carre_mauve{
+    position: relative;
+    width:160px ;
+    height: 160px;
+    background-color: #9E4ACE;
+    border-radius: 10px;
+}
+
+.carre_rose{
+    position: relative;
+    width:160px ;
+    height: 160px;
+    background-color: #EF96C3;
+    border-radius: 10px;    
+}
+
+#ours{
+    position: absolute;
+    top: -26px;
+    left: -18px;
+}
+
+#panthere{
+    position: absolute;
+    left: -35px;
+    top: -65px;
+    
+    
+}
+
+#girafe{
+    position: absolute;
+    
+}
+
+#loutre{
+    position: absolute;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

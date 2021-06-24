@@ -1,0 +1,68 @@
+h1{
+    margin-top: 10px;
+}
+
+.header-blue{
+    position: absolute;
+    top: 0;
+    margin-top: 0;
+    width: 100%;
+    height: 219px;
+    z-index: -1;
+    border-radius: 0px 0px 20px 20px;
+    filter: blur(4px);
+}
+
+.chargement{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: max(73px,8.99%);
+    
+}
+
+
+.charging_white{
+
+    /**top: 160px;
+    left: 20px;**/
+    z-index: 2;
+    width: 335px;
+    height: 16px;
+    border-radius: 5px;
+}
+
+.charging_pink{
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 309px;
+    height: 16px;
+    border-radius: 5px;
+    z-index: 3;
+
+}
+
+.rect-pink{
+    width: 335px;
+    height: 454px;
+    border-radius: 35px;
+}
+
+.fond{
+    filter: blur(5px);
+}
+
+.illu-mentor{
+    margin-left: 22px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.bla{
+    text-align: center;
+}
+
+.croix{
+    margin-top: 30px;
+    margin-left: 187px;
+}

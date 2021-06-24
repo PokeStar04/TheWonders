@@ -38,7 +38,7 @@ h1{
     /**top: 160px;
     left: 20px;**/
     z-index: 2;
-    width: 248px;
+    width: 309px;
     height: 16px;
     border-radius: 5px;
     z-index: 3;
@@ -91,28 +91,12 @@ h1{
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px ;
-    justify-content: space-between;
     top: 15px;
     margin-bottom:  38px;
     
 }
 
-.pink_vide{
-    background-color: white;
-    border-width: 1px;
-    border-style: solid;
-    border-color:#EF96C3 ;
-    width: 160px;
-    height: 39px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.rect_pink{
-    padding-left: 15px;
-}
 
 .txt_white{
     font-family: "Montserrat";
@@ -140,6 +124,44 @@ h1{
 }
 
 .precedent{
-
     color: #000;
+}
+
+
+.rect{
+    width: 279px;
+    height: 300px;
+    border-color: #C4C4C4;
+    border-width: 1px;
+    border-style: solid;
+    position: relative;
+    display: block;
+    border-radius: 14px;
+    margin-left: 29px;
+}
+
+.tell{
+    margin-left: 14px;
+    margin-top: 12px;
+    color: #6F6F6F;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
