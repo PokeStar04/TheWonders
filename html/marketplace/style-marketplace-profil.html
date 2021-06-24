@@ -19,22 +19,49 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <title>market-profil</title>
 </head>
-<body class="wrapper">
+<body >
+    <div id="navbar" class="black_bg"></div>
+    <div class="wrapper">
     <img src="../../ressources/logo/logo.svg" alt="" class="logo">
-    <span>  < Précédent </span>
+    <a href="../../html/marketplace/marketplace-favoris.html">
+
+        <div class="marg-20px font_inter_700_15px black_txt ">  < Précédent </div>
+
+    </a> 
     <div class="box-profil">
-        <div class="">
-            <img src="../../ressources/marketplace/market-profil/pp-market.png" alt="">
-            <div class="note-profile">
+        <header >
+            <div>
+             <img  class="marg-10px" height="105px" width="105px" src="../../ressources/marketplace/market-profil/pp-market.png" alt=""  >
 
-                <img src="../../ressources/marketplace/market-profil/etoile.svg" alt="">
-                <p> ( 146 avis ) </p>
             </div>
-            <h3>Maxime Henrie</h3>
+            <div class="note-profile marg-10px">
+
+                <img   src="../../ressources/marketplace/market-profil/etoile.svg" alt="">
+                <span class="font_inter_medium_10px"> ( 146 avis ) </span>
+            </div>
+            <h3 class="marg-30px font_inter_regular_15px" >Maxime Henrie</h3>
 
 
-        </div>
-        <div class=""></div>
+        </header>
+        <main class="marg-30px font_inter_regular_15px">
+            <img src="../../ressources/marketplace/market-profil/icone-cardiaque.svg" alt="">
+            <p>Temps de réponse : 3 heures</p>
+            <img src="../../ressources/marketplace/market-profil/icone-valise.svg" alt="">
+            <p>Coach en entreprise depuis 5 ans</p>
+            <img src="../../ressources/marketplace/market-profil/icone-time.svg" alt="">
+            <p>Travaille en ce moment chez Thales</p>
+            <img src="../../ressources/marketplace/market-profil/icone-map.svg" alt="">
+            <p>Paris, France</p>
+
+        </main>
+        <footer>
+            <div class="btn-contact yellow_bg">
+
+                <img src="../../ressources/profil/icone-chat.svg" alt="">
+            <span> Contacter</span>
+            </div>
+            
+        </footer>
 
 
     </div>
@@ -173,11 +200,43 @@
             <img src="../../ressources/marketplace/market-profil/img-tarif.svg" alt="">
             <p class="font_inter_regular_15px">Cours distanciel : <span class="font_inter_semi-bold_15px">38€/h</span><br>
                 Cours en présentiel : <span class="font_inter_semi-bold_15px">50€/h</span><br>
-                10 heures de cours : 280€</p>
+                10 heures de cours : <span class="font_inter_semi-bold_15px">280€</span></p>
 
         </div>
         <h2 class="font_abhaya_regular_25px ">Avis</h2>
-    
+        
+        <div class="swiper-container cardSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card-commentaire white_txt font_inter_semi-bold_15px">
+                    <header><img src="../../ressources/feed/grand-feed/pp-1.svg " alt=""> <p>Karine</p></header>
+                    <p class="font_inter_medium_10px">“Ce bootcamp m'a révélée à moi-même. Je connais désormais mes forces, et ce dont je suis capable” </p>                  
+              </div>
+                </div>
+                
+              <div class="swiper-slide white_txt ">
+                  
+                  <div class="card-commentaire font_inter_semi-bold_15px">
+                      <header><img src="../../ressources/feed/grand-feed/pp-2.svg" alt=""> <p>Yvonne</p></header>
+                      <p class="font_inter_medium_10px">“Je me suis recentrée sur mes envies, mes ambitions. j'ai eu le courage de lancer mon business en ligne”</p>                  
+                </div>
+                
+
+            </div>
+              <div class="swiper-slide">
+                <div class="swiper-slide white_txt font_inter_semi-bold_15px">
+                    <div class="card-commentaire">
+                        <header><img src="../../ressources/feed/grand-feed/pp-4.svg" alt=""> <p>Laure</p></header>
+                        <p class="font_inter_medium_10px">“Ce programme a aidé à me dépasser dans mes projets et prendre d’avantage confiance en moi.”</p>                  
+                  </div>
+                  
+              </div></div>
+          </div>
+          
+
+
+
+          </div>
     
     </div>
       
@@ -188,6 +247,9 @@
 
 
     
+    </div>
 </body>
+<script>$("#navbar").load("../../html/navbar/nav.html");</script>
+
 <script src="../../script/swiper-card.js"></script>
 </html>
