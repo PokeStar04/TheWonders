@@ -1,5 +1,255 @@
-header{
+header {
+    position: relative;
+    width: 100%;
+    height: 344px;
+    border-radius: 0px 0px 30px 30px;
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+.profil-type {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 
+.profil {
+    display: flex;
+    margin-bottom: 30px;
+}
+.bloc-profil {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 15px;
+}
+.bloc-txt {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    row-gap: 25px;
 
-    hei
+    flex-wrap: wrap;
+}
+.box-reve {
+    display: flex;
+
+    flex-wrap: wrap;
+    text-align: left;
+}
+.box-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 11.75%;
+}
+.box-btn .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    width: 116px;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+.profil > img {
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+.box-memories {
+    width: 100%;
+    height: 282px;
+    border-radius: 15px;
+    padding: 10px 20px 0 20px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.step {
+    display: flex;
+}
+.box-notif {
+    display: flex;
+    height: 153px;
+}
+#notif {
+    margin-right: 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step img {
+    margin-right: 10px;
+}
+.box-step {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.box-memories h2 {
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.box-defi {
+    position: relative;
+    width: 100%;
+    height: 243px;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.first {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blanc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    padding: 10px 27.5px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 0;
+}
+.box-defi p:nth-child(2) {
+    margin-bottom: 20px;
+}
+.box-defi p:nth-child(3) {
+    margin-bottom: 30px;
+}
+#illu-main {
+    position: absolute;
+    bottom: 0;
+    right: 32px;
+}
+.box-j-a {
+    display: flex;
+
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 25px;
+}
+.btn-coup-p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.btn-coup-p .btn-b {
+    padding: 15px;
+    border-radius: 15px;
+}
+.box-mysquad {
+    padding: 18px 29px;
+
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+.box-titre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.pp-squad {
+    display: flex;
+    column-gap: 5%;
+
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.pp-squad img {
+    height: 55px;
+    margin-bottom: 10px;
+}
+.box-infos-squad {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: repeat(4 30px);
+    row-gap: 20px;
+}
+.bas {
+    display: flex;
+    align-items: flex-end;
+}
+body {
+    padding-bottom: 130px;
+}
+#croix {
+    position: absolute;
+    top: 15px;
+    right: 19px;
+}
+.box-avatar {
+    position: flex;
+    margin-bottom: 30px;
+}
+.avatar {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+.lvl-up-progres {
+    height: 200px;
+    width: 20px;
+    border-radius: 8px;
+    background: rgba(15, 36, 178, 0.39);
+}
+.lvl-up {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    text-align: center;
+}
+
+.box-plante div p {
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.box-plante {
+    position: relative;
+    display: flex;
+    width: 132px;
+}
+
+.center-lvlup {
+    display: flex;
+
+    justify-content: center;
+}
+.time-app {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+.lvl-up-progres {
+    position: relative;
+}
+.lvl-up-progres div {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+}
+
+.h3 {
+    margin-bottom: 50px;
+}
+.box-avatar::before {
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 100px;
+    clip-path: circle(50% at 100% 50%);
+
+    background-color: #0f24b2;
+    right: 0;
+    bottom: -230px;
 }
