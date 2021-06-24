@@ -29,7 +29,7 @@ window.onload = () => {
             .appendChild(document.createElement("p"))
             .appendChild(
                 document.createTextNode(userMessage)
-            ).parentElement.parentElement.className = "bloc-2";
+            ).parentElement.parentElement.className = "bloc-2 ";
     };
     document.getElementById("envoyer").addEventListener("click", (event) => {
         event.preventDefault();
