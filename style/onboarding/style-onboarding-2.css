@@ -41,7 +41,8 @@
     margin-bottom: max(93px,11.45%);
     z-index: 2;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
+    
 }
 
 
@@ -53,4 +54,19 @@
     margin-left: 146px;
     margin-right: 146px;
     z-index: 5;
+}
+
+input{
+    border: none;
+    background-color:#0F24B2 ;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+input:focus{
+    border: none;
+    outline: none;
 }

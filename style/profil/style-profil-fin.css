@@ -7,6 +7,20 @@ header {
     padding-top: 50px;
     z-index: 5;
 }
+
+.boutton-blue{
+    position: fixed;
+    display: flex;
+    width: 105px;
+    height: 44px;
+    top: 421px;
+    z-index: 5;
+    left: 135px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
 .profil-type {
     display: flex;
     justify-content: center;

@@ -10,6 +10,8 @@ body::after {
     top: 477px;
 }
 .logo {
+    z-index: 3;
+    position: relative;
     margin-bottom: 30px;
 }
 .coeur-1 {
