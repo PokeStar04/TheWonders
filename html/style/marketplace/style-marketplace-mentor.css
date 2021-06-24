@@ -12,6 +12,7 @@ h1{
 
 
 
+
 .carre-rechercher{
     margin-left: max(29px,7.73%);
     margin-top: max(33px,3.71%);
@@ -49,9 +50,7 @@ h1{
 h2{
     position: relative;
     color: #6E6E6E;
-	text-align: center;
-	margin-top: 27px;
-
+    text-align: center;
 }
 
 #coeur-rempli{
