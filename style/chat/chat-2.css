@@ -1,14 +1,12 @@
-header{
+header {
     position: relative;
     width: 100%;
     height: 240px;
-    background-color: #EFB33E;   
-    border-radius: 0px 0px 15px 15px; 
+    background-color: #efb33e;
+    border-radius: 0px 0px 15px 15px;
     margin-bottom: 23px;
-    
 }
-.chat_nav{
-
+.chat_nav {
     display: flex;
     justify-content: space-between;
     margin: 0px 25px;
@@ -16,39 +14,35 @@ header{
     align-items: center;
     margin-bottom: 27px;
 }
-.icone_header{
+.icone_header {
+    display: flex;
+    justify-content: space-around;
 
-display: flex;
-justify-content: space-around;
-
-align-items: center;
-align-self: center;
-column-gap: 12px;
-    
-
+    align-items: center;
+    align-self: center;
+    column-gap: 12px;
 }
 .chanel-box {
     position: relative;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-    height: 21.18vh;
+
+    height: 21.18%;
     row-gap: 1.85vh;
     margin-bottom: 20px;
 }
-.chanel-box div{
+.chanel-box div {
     position: relative;
-    
 }
-.chanel-box div .txt{
+.chanel-box div .txt {
     position: absolute;
     top: 0;
-    margin:  0 10%;
+    margin: 0 10%;
     width: 80%;
     height: 100%;
 }
-.chanel-box div .txt p{
+.chanel-box div .txt p {
     position: relative;
     display: flex;
     margin-top: 50%;
@@ -59,20 +53,18 @@ column-gap: 12px;
     background-color: #ffffff;
     border-radius: 5px;
     z-index: 0;
-   
 }
-.ilu-chat-header{
-position: absolute;
+.ilu-chat-header {
+    position: absolute;
 
-bottom: 0;
-right: 0;
-
+    bottom: 0;
+    right: 0;
 }
-header p{
+header p {
     width: 54.5vw;
     margin-left: 5.33%;
 }
 
-.bas{
+.bas {
     margin-bottom: 100px;
 }
