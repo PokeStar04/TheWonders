@@ -1,94 +1,94 @@
-body{
-	margin-top: 0px;
+body {
+    margin-top: 0px;
 }
 
 .premium_page {
-	color: white;
-	height: 100vh;
-	padding: 20px;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 70px;
+    color: white;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
 }
 .premium_title {
-
-	line-height: 1.1;
+    line-height: 1.1;
 }
 .premium_page ul {
-  list-style: none;
-  margin-top: 0;
-  margin-left: 0;
-  padding-left: 0;
-  list-style-position: outside;
+    list-style: none;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: outside;
 }
 
 .premium_page li {
-	padding-left: 1em;
-	text-indent: -1em;
+    padding-left: 1em;
+    text-indent: -1em;
 }
 
-.premium_page li:not(:last-child) { 
-  margin-bottom: 50px;
-  margin-top: 50px;
+.premium_page li:not(:last-child) {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .premium_page li:before {
-  display: inline-block;
-  content: " ";
-  vertical-align: middle;
-  background-image: url(../../ressources/inscription/inscription-info-premium/check-i1.svg);
-  background-size: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 20px;
-  height: 30px;
+    display: inline-block;
+    content: " ";
+    vertical-align: middle;
+    background-image: url(../../ressources/inscription/inscription-info-premium/check-i1.svg);
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 30px;
 }
 
 .croix {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	width: 20px;
-	height: 20px;
-	background-image: url(../../ressources/inscription/inscription-info-premium/croix-i1.svg);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../ressources/inscription/inscription-info-premium/croix-i1.svg);
 }
 
-.conditions{
-	position: relative;
-	display: block;
+.conditions {
+    position: relative;
+    display: block;
 }
 
 .rainbow_background {
-	position: absolute;
-	z-index: -1;
-	top: 65%;
-	transform: translateY(-50%);
+    position: fixed;
+    z-index: -1;
+    top: 65%;
+    width: 100%;
+    transform: translateY(-50%);
 }
 
 .offre_gratuit {
-	margin-top: 60px;
-	margin-bottom: 32px;
+    margin-top: 60px;
+    margin-bottom: 32px;
 }
 
 .carre_blanc {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	/* height: 120px; */
-	padding: 20px;
-	border-radius: 20px 20px 0 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* height: 120px; */
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .bouton_orange {
-	padding: 10px;
-	text-align: center;
-	border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .tarif {
-	margin-top: 15px;
-	color: #A19393;
-	text-align: center;
+    margin-top: 15px;
+    color: #a19393;
+    text-align: center;
 }
